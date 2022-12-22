@@ -1,0 +1,51 @@
+{
+  "name": "strapi-google-translator",
+  "version": "1.0.7",
+  "description": "Easily translate your Strapi content into 100+ languages.",
+  "strapi": {
+    "name": "strapi-google-translator",
+    "description": "Easily translate your Strapi content into 100+ languages.",
+    "kind": "plugin",
+    "displayName": "Strapi Google Translator"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^6.3.1",
+    "lodash": "^4.17.21",
+    "react-ace": "^10.1.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.4.5"
+  },
+  "author": {
+    "name": "AsyncWeb Technology",
+    "email": "support@asyncweb.io"
+  },
+  "homepage": "https://github.com/manishkatyan/strapi-google-translator#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manishkatyan/strapi-google-translator.git"
+  },
+  "maintainers": [
+    {
+      "name": "AsyncWeb Technology",
+      "email": "support@asyncweb.io"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "translate",
+    "i18n",
+    "multi-lingual",
+    "google cloud translate",
+    "strapi",
+    "headless CMS",
+    "open-source",
+    "subscribe",
+    "gateway",
+    "internationalization"
+  ],
+  "license": "MIT"
+}
